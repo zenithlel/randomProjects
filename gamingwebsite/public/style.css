@@ -1,0 +1,46 @@
+// variables in css .black-grounds 
+.red-text{
+  color: red;
+}
+body{
+  background-color: lightblue;
+  }
+.p{
+  font-size: 15px;
+  font: outline;
+  
+}
+.monotext{
+  font-family: Lobster,monospace;
+}
+.white-border{
+  border-color: white;
+  border-width:10px;
+  border-style: outset;
+  border-radius: 10px;
+
+}
+.black-grounds{
+  background: blanchedalmond;
+
+}
+.white-background{
+  background: white;
+  margin: 29px;
+  padding: 30px;
+  text-align: left;
+}
+.right-side{
+  margin-left: 500px;;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+[type = 'radio'] {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+#bigbox input{
+  background-color:#FFF;
+ min-height:55px;
+
+}
