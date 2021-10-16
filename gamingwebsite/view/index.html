@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Scratch Page </title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div>
+      <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+      <h3 class ="red-text white-background"> Games recommendation </h3>
+      <p> tell us which game you would recommend other people to play </p>
+      <label class = "red-text"><input type="checkbox" id ="gamerec" name="ApexLegends"> ApexLegends </label> 
+      <p> Type in your favorite game in this box, we will tell you the number listed in our list, which game was inputted first </p>
+      <form action="gamelist" method="POST">
+      <fieldset>
+        <legend> Type the Game Here </legend>
+        <label for="favorite_game">Favorite Game</label>
+        <input type="text" name ="favoriteGame" placeholder="e.g Apex Legends">
+        <input type= "submit" value="submit"/>
+      </fieldset>
+      </form>
+      <p> tell us a list of games you like.. what are your favorite games?</p>
+      <form id = "bigbox" action = "biglist" method = "POST">
+        <fieldset>
+        <legend> Give us a list of games we will sort it out </legend>
+        <input type="text" name = "gameslist" placeholder ="Apex fortnite fifa"/>
+        <input type= "submit" value="submit"/>
+        </fieldset>
+      </form>
+      
+      <label class = "red-text"><input type="checkbox" id="gamerec" name="fortnite"> Fortnite</label>      <button type="submit"> submit</button>
+      <p style="color:green;"> What is your favourite game?</p>
+      <label style="color:orange;"> <input type="radio" name="bestGame" id="bestgame"> League of Legends</input>
+      <input type="radio"> apex legends </input>
+      </label>
+      <p class="monotext"> Do you prefer to play at night or at the early morning </p>
+      
+      <label><input type="radio" id="daynight" name="night" value="night">night</label>
+      <label><input type ="radio" id="daynight" name="day" value="day"> Day </label>
+      <button type="submit" action ="www.facebook.com"> submit </button>
+      <p> no class here</p>
+      <p> <a href=#> <img class="white-border medium-size right-side" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Apex_legends_cover.jpg/220px-Apex_legends_cover.jpg"></a>
+    </div>
+
+    <div class="black-grounds">
+      what's the most played game other than fortnite?
+      <br>
+      <br>
+      <form>
+        <label id="mostplayedgame" class="white-border">
+          <input type="radio" name="league of legends"> League of legends</input>
+    <script src="script.js"></script>
+  </body>
+</html>
